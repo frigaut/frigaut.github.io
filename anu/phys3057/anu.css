@@ -2,10 +2,16 @@
  * Solarized Dark theme for reveal.js.
  * Author: Achim Staebler
  */
- @import url(//fonts.googleapis.com/css?family=Alegreya+Sans+SC);
+ @import url('//fonts.googleapis.com/css?family=Alegreya+Sans+SC');
+ @import url('//fonts.googleapis.com/css?family=Alegreya+Sans');
 /**
  * Solarized colors by Ethan Schoonover
  */
+ * { font-family: Alegreya Sans }
+ .reveal .sc { font-family: Alegreya Sans SC }
+ .reveal h1, .reveal h2 { font-family: Alegreya Sans SC }
+ .reveal .fsc { font-variant: small-caps }
+
 html * {
   color-profile: sRGB;
   /* background-color: #000000; */
@@ -99,21 +105,22 @@ body {
   padding-bottom: 0.3em;
   color: #c8c8d1;
   background-color: #3c3d3f;
-  font-family: "Alegreya Sans SC", serif;
-  font-family: "Calibri", serif;
+  /* font-family: "Alegreya Sans SC", serif; */
+  /* font-variant: small-caps; */
   font-weight: bold;
   line-height: 1.0;
   letter-spacing: normal;
+  /* text-transform: small-caps; */
   text-shadow: none;
-  word-wrap: break-word; }
+  word-wrap: break-word;
+  font-size: 2.0em; }
 
 .reveal h1 {
   background-image: url('assets/images/anu.png');
   background-repeat: no-repeat;
   background-size: 15%;
   background-position-x: 98%;
-  background-position-y: 10%;
-  font-size: 2.0em; }
+  background-position-y: 10%; }
 
 .reveal h2 {
   background-image: url('assets/images/anu.png');
