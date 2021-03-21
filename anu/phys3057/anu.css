@@ -2,12 +2,17 @@
  * Solarized Dark theme for reveal.js.
  * Author: Achim Staebler
  */
- @import url(../../lib/font/league-gothic/league-gothic.css);
- @import url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC);
- @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+ /* @import url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC); */
+ /* @import url("./assets/fonts/AlegreyaSansSC-Regular.ttf") format('truetype'); */
 /**
  * Solarized colors by Ethan Schoonover
  */
+@font-face {
+  font-family: "Alegreya Sans SC";
+  src: url("./assets/fonts/AlegreyaSansSC-Regular.ttf") format('truetype');
+  font-weight: bolder;
+  font-style: normal;
+}
 html * {
   color-profile: sRGB;
   /* background-color: #000000; */
