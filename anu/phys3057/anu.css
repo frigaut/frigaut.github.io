@@ -2,7 +2,7 @@
  * Solarized Dark theme for reveal.js.
  * Author: Achim Staebler
  */
- @import url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC);
+ @import url(//fonts.googleapis.com/css?family=Alegreya+Sans+SC);
 /**
  * Solarized colors by Ethan Schoonover
  */
@@ -99,8 +99,8 @@ body {
   padding-bottom: 0.3em;
   color: #c8c8d1;
   background-color: #3c3d3f;
-  font-family: "Alegreya Sans SC", Impact, sans-serif;
-  font-weight: bolder;
+  font-family: "Alegreya Sans SC", serif;
+  font-weight: bold;
   line-height: 1.0;
   letter-spacing: normal;
   text-transform: small-caps;
