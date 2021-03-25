@@ -2,17 +2,20 @@
  * Solarized Dark theme for reveal.js.
  * Author: Achim Staebler
  */
- /* @import url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC); */
- /* @import url("./assets/fonts/AlegreyaSansSC-Regular.ttf") format('truetype'); */
+// @import url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC);
+// @import url("./assets/fonts/AlegreyaSansSC-Regular.ttf") format('truetype');
 /**
  * Solarized colors by Ethan Schoonover
  */
-@font-face {
+
+ @font-face {
   font-family: "Alegreya Sans SC";
-  src: url("./assets/fonts/AlegreyaSansSC-Regular.ttf") format('truetype');
+  // src: url("./assets/fonts/AlegreyaSansSC-Regular.ttf") format('truetype');
+  src: url("https://frigaut.github.io/anu/phys3057/assets/fonts/AlegreyaSansSC-Regular.ttf") format('truetype');
   font-weight: bolder;
   font-style: normal;
 }
+
 html * {
   color-profile: sRGB;
   /* background-color: #000000; */
@@ -106,24 +109,28 @@ body {
   padding-bottom: 0.3em;
   color: #c8c8d1;
   background-color: #3c3d3f;
-  font-family: "Alegreya Sans SC", Impact, sans-serif;
+  font-family: "Alegreya Sans SC", serif;
   font-weight: bold;
   line-height: 1.0;
   letter-spacing: normal;
-  /* text-transform: small-caps; */
+  // text-transform: small-caps;
+  text-transform: none;
   text-shadow: none;
   word-wrap: break-word; }
 
 .reveal h1 {
-  background-image: url('assets/images/anu.png');
+  // background-image: url('assets/images/anulogo.png');
+  background-image: url('https://frigaut.github.io/anu/assets/images/anulogo.png');
   background-repeat: no-repeat;
   background-size: 15%;
   background-position-x: 98%;
   background-position-y: 10%;
+  // background-position-y: center;
   font-size: 2.0em; }
 
 .reveal h2 {
-  background-image: url('assets/images/anu.png');
+  // background-image: url('assets/images/anulogo.png');
+  background-image: url('https://frigaut.github.io/anu/assets/images/anulogo.png');
   background-repeat: no-repeat;
   background-size: 15%;
   background-position-x: 98%;
@@ -238,6 +245,7 @@ body {
 .reveal dd {
   margin-left: 40px; }
 
+.reveal .font90 { font-size: 90%;}
 .reveal .font80 { font-size: 80%;}
 .reveal .quote-only blockquote {
   margin-top: 100px;
