@@ -1,0 +1,353 @@
+/**
+ * @theme mavis
+ * @auto-scaling fittingHeader,math
+ * @size 4:3 960px 700px
+ * @size 16:9 1280px 720px
+ * @size 4K 3840px 2160px
+ */
+
+/* @import 'gaia'; */
+/* @import 'default'; */
+@import 'gruvbox-dark';
+/* @import 'rainbow'; */
+/* @import 'srcery'; */
+/* @import 'tomorrow'; */
+/* if loading a new one, change background and color in 
+   pre code and pre code declarations below to agree with
+   the ones in the syntax css file */
+
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC);
+
+section {
+  background-color: #ffffff;
+  color: #333;
+  font-family: "Calibri", sans-serif;
+  font-weight: normal;
+  justify-content: flex-start;
+}
+
+section.invert { 
+  background-color: #333;
+  color: #eee;
+}
+
+section.invert::after {
+  color: #aaa;
+}
+section::after {
+  /* can add styles in here */
+  font-size: 12pt;
+  margin-right: 0.8em;
+  margin-bottom: 0.35em;
+  color: #aaa;
+}
+
+:root {
+  font-size: 21pt;
+  padding: 0;
+}
+
+::selection {
+  color: #fff;
+  background: #d33682;
+  text-shadow: none;
+}
+
+::-moz-selection {
+  color: #fff;
+  background: #d33682;
+  text-shadow: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px 0 0.4em 0;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #3b9eec;
+  /* background-color: #3c3d3f; */
+  font-family: "Alegreya Sans SC", serif;
+  font-weight: bold;
+  line-height: 1.0;
+  letter-spacing: normal;
+  text-transform: none;
+  text-shadow: none;
+  word-wrap: break-word;
+}
+
+.authors{
+  width: 90%;
+  margin: 0;
+  position: absolute;
+  top: 75%;
+  left: 50.5%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  text-shadow: none;
+  /* padding: 380px 0 0 50px; */
+  position: absolute;
+  bottom: 200px;
+  left: 9.5%;
+  margin-left: 10%;
+  padding: 0;
+  padding-bottom: 8px;
+  width: 87%;
+  /* border: 3px solid #8AC007; */
+  border-bottom: 4px solid rgba(128,128,128,0.3);
+  font-size: 2.5em;
+}
+
+h2 {
+  background-image: url('assets/images/mavis_logos_header.png');
+  background-repeat: no-repeat;
+  background-size: 45%;
+  background-position-x: 98%;
+  background-position-y: 20%;
+  padding-right: 20%;
+  padding-left: 40px;
+  font-size: 1.4em;
+}
+
+h3 { font-size: 1.55em; }
+h4,h5 { font-size: 1em; }
+h6 { font-size: 2.0em; margin-top: 28%; }
+
+section { 
+  padding: 0em;
+  margin: 0em;
+}
+
+:root {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+h1,h2,h3,h4,h5,h6 {
+  margin-left: -40px;
+  margin-right: -40px;
+}
+
+p {
+  margin: 0.2em 1em 0 1em;
+  margin: 0;
+  line-height: 1.3; 
+}
+
+footer {
+  position: absolute;
+  top: 655px;
+  /* background-color: #3c3d3f; */
+  padding: 8px 15px 8px 15px;
+  /* padding: 0; */
+  /* padding: 1% 1% 1% 1%; */
+  margin: 0;
+  margin-left: -40px;
+  color: #333;
+  font-size: 0.55em; 
+  font-family: "Alegreya Sans SC", serif;
+  font-weight: normal;
+  /* background-position-y: 20%; */
+  /* padding-right: 20%; */
+
+}
+  
+pre {
+  display: block;
+  position: relative;
+  width: 90%;
+  margin: 10px auto;
+  padding: 0;
+  text-align: left;
+  font-size: 0.7em;
+  font-family: "Ubuntu Mono";
+  line-height: 1.0em;
+  word-wrap: break-word;
+  border: 2px solid #c0c0c0;
+  border-left: 6px solid #c0c0c0;
+  border-radius: 5px;
+  box-shadow: none;
+}
+
+code {
+  font-family: "Ubuntu Mono";
+  font-size: 0.95em;
+  word-wrap: break-word;
+  border: 2px solid rgba(128, 128, 128, .4);
+  border-radius: 5px;
+}
+
+pre code {
+  display: block;
+  padding: 5px;  
+  overflow: auto;
+  line-height: 1.2em;
+  max-height: 500px;
+  word-wrap: normal;
+}
+
+code     { background: #f0f0f0; color: #333; }
+pre      { background: #272822; color: #ddd; }
+pre code { background: #272822; color: #ddd; }
+section.invert code     { background: #303030; color: #f0f0f0; }
+section.invert pre      { background: #303030; color: #f0f0f0; }
+section.invert pre code { background: #303030; color: #f0f0f0; }
+
+
+
+blockquote {
+  display: block;
+  position: relative;
+  width: 75%;
+  margin: 10px auto;
+  padding: 0px 0 0px 20px;
+  border: 5px solid #a0a0a0;
+  border-style: none none none solid;
+  font-style: italic; 
+}
+  
+img,
+video,
+iframe {
+  max-width: 880px;
+  max-height: 600px;
+  display: block;
+  /* display: inline; */
+  /* float: right; */
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+strong,
+b {
+  font-weight: bold;
+  color: #c23f3f;
+}
+
+em {
+  font-style: italic; 
+}
+
+ol,
+dl,
+ul {
+  display: inline-block;
+  text-align: left;
+  padding-left: 0.8em;
+  margin: 0 0.5em 0 0.1em; 
+}
+
+ol {
+  list-style-type: decimal; 
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ul li,
+ol li {
+  margin-bottom: 0.2em;
+}
+
+ul ul li,
+ul ol li,
+ol ul li,
+ol ol li {
+  margin-bottom: 0.20em;
+}
+
+
+ul ul {
+  list-style-type: circle;
+}
+
+ul ul ul {
+  list-style-type: square;
+}
+
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin-top: 0.15em;
+  display: block;
+  color: #707070;
+  font-size: 88%;
+  padding-left: 1.2em;
+  margin-left: 0.1em;
+}
+
+section.invert ul ul,
+section.invert ul ol,
+section.invert ol ol,
+section.invert ol ul {
+  color: #c0c0c0;
+}
+
+
+.katex-html {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  font-size: 83%;
+}
+
+table {
+  margin: auto;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+table th {
+  font-weight: bold;
+}
+
+table th,
+table td {
+  text-align: left;
+  padding: 0.2em 0.5em 0.2em 0.5em;
+  border-bottom: 0px solid;
+}
+
+table th[align="center"],
+table td[align="center"] {
+  text-align: center;
+}
+
+table th[align="right"],
+table td[align="right"] {
+  text-align: right;
+}
+
+table tbody tr:last-child th,
+table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/*********************************************
+ * LINKS
+ *********************************************/
+a {
+  color: #268bd2;
+  text-decoration: none;
+  -webkit-transition: color .15s ease;
+  -moz-transition: color .15s ease;
+  transition: color .15s ease;
+}
+
+a:hover {
+  color: #78b9e6;
+  text-shadow: none;
+  border: none;
+}
+
+.roll span:after {
+  color: #fff;
+  background: #1a6091;
+}
+
