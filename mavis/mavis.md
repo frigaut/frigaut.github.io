@@ -92,19 +92,3 @@ MAVIS project office
 
 ![w:780](assets/images/mavis_schedule.png)
 
----
-<style scoped>
-p { margin-top: 0.6em; }
-</style>
-## VSCODE
-
-<div style="font-size: 110%;">
-
-<img src="assets/images/Screenshot_20210401_092630.png" style="display:inline;float:right;margin-left:10px;" height="550px">
-As for other vscode or atom package, what they do is translate the markdown to html, using javascript. There is a local server that display the resulting HTML (see right). 
-
-There is also an export feature, accessible from the menu:
-
-<img src="assets/images/Screenshot_20210401_092620.png" style="display:inline;float:left;" height="150px">
-</div>
-
