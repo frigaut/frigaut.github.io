@@ -1,5 +1,5 @@
 # frigaut.github.io
-Pages available on this site.
+Pages available on this site (updated 2022-03-20)
 
 # PHYS3057:
 
